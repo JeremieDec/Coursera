@@ -1,0 +1,108 @@
+ 
+/********** Basic styles **********/*
+
+ {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+#menu {
+  font-size: 80px;
+}
+section h1{
+  position: static;
+  text-align: right;
+  border: 1px solid black;
+}
+
+section {
+  clear: left;
+}
+
+#chicken {
+  background-color: #ffb3b2;
+}
+
+#beef {
+  background-color: #ff2343;
+}
+
+#sushi {
+  background-color: #ffcc56;
+}
+
+p {
+  text-align: center;
+  display: inline;
+  width: 90%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: arial, sans-serif;
+  float: center;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+#p1 {
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+#p2 {
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+#p3 {
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+
+/* Responsive Framework */
+
+.row {
+  width: 100%;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1 {                   /* Créer d'autres classes lg-2.. lg-n si besoin pour items spécifiques */
+    float: left;
+    border: 10px solid black;
+    background-color: #d1e0e0;
+  }
+  .col-lg-1 {
+    width: 25%;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1 {
+    float: left;
+    border: 5px solid black;
+    background-color: #d1e0e0;
+
+  .col-md-1 {
+    width: 25%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm-1 {
+    float: left;
+    border: 1px solid  black;
+    overflow: hidden;
+    background-color: #d1e0e0;
+  }
+  .col-sm-1 {
+    width: 25%;
+  }
+}
